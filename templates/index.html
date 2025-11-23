@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropIntel</title>
+
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+    <!-- 🔥 Fullscreen Video Background -->
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="/static/videos/background.mp4" type="video/mp4">
+    </video>
+
+    <!-- 🟩 MAIN UI GLASS PANEL -->
+    <div class="main-container">
+
+        <div class="header">
+            <img src="/static/images/cropintel_logo.png" class="logo">
+            <h1>CropIntel</h1>
+            <h3 class="subtitle">Your Smart Agriculture Assistant 🌾</h3>
+        </div>
+
+        <div id="chatbox" class="chatbox">
+            <div class="bot-msg intro">
+                🌱 <strong>Hello farmer!</strong> I am <strong>CropIntel</strong>, your AI assistant.
+                Ask me anything about crops, soil, pests, or farming help.
+            </div>
+        </div>
+
+        <div class="input-row">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button id="sendBtn" class="send-btn">📨</button>
+        </div>
+
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
